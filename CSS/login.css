@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #2563EB;
+    --secondary-color: #F0F7FF;
+    --tertiary-color: #64748B;
+    --neutral-color: #F8FAFC;
+    --background-color: #ffffff;
+    --btn-hover-color: #0053DB;
+    --border-color: #E5E7EB;
+    --heading-color: #191C1E;
+}
+
+.password-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 0.9rem;
+}
+
+.forgot-password:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
