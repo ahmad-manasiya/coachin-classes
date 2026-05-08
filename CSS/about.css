@@ -201,11 +201,6 @@ section{
 }
 
 @media (max-width:768px){
-
-    .legacy-section{
-        
-    }
-
     .legacy-stats{
         gap:1.5rem;
     }
@@ -221,7 +216,7 @@ section{
 
 }
 
-@media (max-width:480px){
+@media (max-width:500px){
 
     .legacy-title{
         font-size:2rem;
@@ -230,6 +225,15 @@ section{
     .legacy-description,
     .info-description{
         font-size:1rem;
+    }
+    .legacy-container{
+        padding: 0 1rem;
+    }
+    .mission-vision-section{
+        padding: 3rem 1rem;
+    }
+    .info-card{
+        padding: 1rem;
     }
 
 }
@@ -415,5 +419,17 @@ section{
     .pillar-btn{
         width:100%;
         text-align:center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .pillar-btn{
+        padding: 0.3rem 1rem;
+    }
+    .pillar-cta-right{
+        padding: 1rem;
+    }
+    .pillar-cta-left{
+        padding: 1rem;
     }
 }

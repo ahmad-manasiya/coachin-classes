@@ -211,6 +211,7 @@ body{
 
 .footer-links .active{
     color: var(--primary-color);
+    font-size: 1rem;
 }
 
 .footer-col-link{
@@ -296,5 +297,11 @@ body{
 @media screen and (max-width:650px) {
     .footer-container{
         grid-template-columns: 1fr;
+    }    
+}
+
+@media screen and (max-width:500px) {
+    .footer-container{
+        padding: 3rem 1rem;
     }    
 }

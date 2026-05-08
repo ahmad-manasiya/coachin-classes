@@ -466,3 +466,24 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width:500px) {
+    .section-content{
+        padding: 0 1rem;
+    } 
+    .stats-content{
+        padding: 1rem;
+    }
+    .courses-content{
+        padding: 3rem 1rem;
+    }
+    .course-card{
+        padding: 1rem;
+    }
+    .cta-section{
+        padding: 0 1rem;
+    }
+    .cta-content{
+        padding: 1rem;
+    }
+}
