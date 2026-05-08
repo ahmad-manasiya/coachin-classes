@@ -146,13 +146,25 @@ body{
     .header-content{
         justify-content: center;
     }
-    .login-btn, .Enroll-button{
+    .Enroll-button{
         display: none;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:600px) {
+    .login-btn{
+        display: none;
+    }    
+}
+
+@media screen and (max-width:1075px) {
     .nav-link{
+        display: none;
+    }    
+}
+
+@media (min-width: 1075px) and (max-width:1170px) {
+    .login-btn{
         display: none;
     }    
 }
@@ -175,7 +187,7 @@ body{
 }
 
 .footer-col-1{
-    margin-right: 3rem;
+    margin-right: 5rem;
 }
 
 .quick-title{
