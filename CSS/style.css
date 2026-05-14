@@ -6,6 +6,7 @@
     --background-color: #ffffff;
     --btn-hover-color: #0053DB;
     --border-color: #E5E7EB;
+    --heading-color: #191C1E;
 }
 
 html{
@@ -62,8 +63,8 @@ body{
 }
 
 .logo-img{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .logo-txt{
@@ -144,9 +145,16 @@ body{
 
 @media screen and (max-width:450px) {
     .header-content{
-        justify-content: center;
+        justify-content: space-between;
     }
     .Enroll-button{
+        padding: 0.3rem 1rem;
+    }
+    .logo-img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .logo-txt{
         display: none;
     }
 }

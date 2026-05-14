@@ -63,7 +63,7 @@
     padding: 0.3rem 0.8rem;
     background-color: rgba(37, 99, 235, 0.1); /* light blue */
     color: var(--primary-color);
-    border-radius: 999px;
+    border-radius: 1rem;
     font-size: 0.85rem;
     font-weight: 500;
     margin-bottom: 0.8rem;
