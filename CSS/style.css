@@ -222,12 +222,15 @@ body{
     font-size: 1rem;
 }
 
+.footer-col-link-li{
+    margin-bottom: 0.5rem;
+}
+
 .footer-col-link{
     text-decoration: none;
     color: var(--tertiary-color);
     font-size: 0.9rem;
     transition: 0.3s;
-    margin-bottom: 0.5rem;
 }
 
 .footer-col-contact-link{
